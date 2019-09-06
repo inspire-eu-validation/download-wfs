@@ -1,6 +1,6 @@
 # Conformance class: INSPIRE Quality of Service (PLACEHOLDER)
 
-This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-service/3.1).
+This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-wfs/master).
 
 ## Standardization target type
 

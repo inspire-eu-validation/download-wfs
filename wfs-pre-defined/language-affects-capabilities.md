@@ -5,9 +5,9 @@ This language selection must be reflected in the provided capabilities document.
 
 **Prerequisites**
 
-* [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/extended-capabilities)
-* [Provide Response Language](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/provide-response-language)
-* [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/provide-supported-languages)
+* [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/extended-capabilities)
+* [Provide Response Language](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-response-language)
+* [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-supported-languages)
 
 **Test method**
 
@@ -23,7 +23,7 @@ This language selection must be reflected in the provided capabilities document.
 
 **Reference(s)**
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/README#ref_TG_DL), Requirements 55, 56
+* [TG DL](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/README#ref_TG_DL), Requirements 55, 56
 
 **Test type**: Automated
 
@@ -31,7 +31,7 @@ This language selection must be reflected in the provided capabilities document.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-service/3.1/wfs-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
