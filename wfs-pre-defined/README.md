@@ -1,6 +1,6 @@
 # Conformance class: Pre-defined WFS (DRAFT)
 
-This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-wfs/master).
+This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1).
 
 ## Standardization target type
 
@@ -41,18 +41,18 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 46     | ISO 19142 Simple WFS compliance      | OGC WFS 2.0.0, A.1.1 Simple WFS    | n/a |
 | 47     | ISO 19143 Query compliance           | OGC FES 2.0, A.1 Test cases for query | n/a |
 | 48     | ISO 19142 HTTP GET compliance        | OGC WFS 2.0.0, A.1.5 HTTP GET      | n/a |
-| 49     | Use stored queries for datasets      | [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/predefined-stored-query) | |
-| 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/predefined-stored-query) | |
-| 51     | Fixed stored query parameter names   | [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/predefined-stored-query) | |
+| 49     | Use stored queries for datasets      | [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/predefined-stored-query) | |
+| 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/predefined-stored-query) | |
+| 51     | Fixed stored query parameter names   | [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/predefined-stored-query) | |
 | 52     | Separate service for each dataset    | | |
-| 53     | INSPIRE metadata in extended Capabilities | [Service Metadata](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/service-metadata) | |
-| 54     | List of supported languages          | [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-supported-languages) | |
-| 55     | User may select the language         | [Language affects capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/language-affects-capabilities) | |
-| 56     | GetCapabilities LANGUAGE parameter   | [Language affects capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/language-affects-capabilities) | |
-| 57     | Title & abstract fallback language   | [Provide Default Language](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-default-language) | |
-| 58     | ResponseLanguage element             | [Provide Response Language](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-response-language) | |
-| 59     | SupportedLanguages element           | [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-supported-languages), [Provide default language](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-default-language) | |
-| 60     | Extended capabilities schema         | [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/extended-capabilities) | |
+| 53     | INSPIRE metadata in extended Capabilities | [Service Metadata](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/service-metadata) | |
+| 54     | List of supported languages          | [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-supported-languages) | |
+| 55     | User may select the language         | [Language affects capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/language-affects-capabilities) | |
+| 56     | GetCapabilities LANGUAGE parameter   | [Language affects capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/language-affects-capabilities) | |
+| 57     | Title & abstract fallback language   | [Provide Default Language](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-default-language) | |
+| 58     | ResponseLanguage element             | [Provide Response Language](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-response-language) | |
+| 59     | SupportedLanguages element           | [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-supported-languages), [Provide default language](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-default-language) | |
+| 60     | Extended capabilities schema         | [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/extended-capabilities) | |
 
 ## Tests
 
@@ -60,13 +60,13 @@ The Conformance Class "Pre-defined WFS: Implement Pre-Defined Dataset Download S
 
 | Identifier                                                        | Status   |
 | ----------------------------------------------------------------- | -------- |
-| [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/extended-capabilities) | Ready for review |
-| [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/predefined-stored-query) | Ready for review    |
-| [Service Metadata](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/service-metadata)   | Ready for review    |
-| [Language affects capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/language-affects-capabilities) | Ready for review |
-| [Provide Response Language](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-response-language)    | Ready for review    |
-| [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-supported-languages)   | Ready for review    |
-| [Provide Default Language](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/provide-default-language) | Ready for review |
+| [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/extended-capabilities) | Ready for review |
+| [Predefined Stored Query](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/predefined-stored-query) | Ready for review    |
+| [Service Metadata](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/service-metadata)   | Ready for review    |
+| [Language affects capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/language-affects-capabilities) | Ready for review |
+| [Provide Response Language](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-response-language)    | Ready for review    |
+| [Provide Supported Languages](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-supported-languages)   | Ready for review    |
+| [Provide Default Language](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/provide-default-language) | Ready for review |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 

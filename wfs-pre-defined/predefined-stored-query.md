@@ -5,7 +5,7 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 
 **Prerequisites**
 
-* [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/extended-capabilities)
+* [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/extended-capabilities)
 
 **Test method**
 
@@ -16,7 +16,7 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/README#ref_TG_DL), Requirements 49, 50, 51
+* [TG DL](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/README#ref_TG_DL), Requirements 49, 50, 51
 
 **Test type**:
 
@@ -28,7 +28,7 @@ TG Requirements 49, 50 and 51 together specify the use of Stored Queries to make
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

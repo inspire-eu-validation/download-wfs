@@ -1,6 +1,6 @@
 # Conformance class: Direct WFS (DRAFT)
 
-This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-wfs/master).
+This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1).
 
 ## Standardization target type
 
@@ -52,8 +52,8 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 67     | ISO 19143 Minimum Temporal Filter    | OGC FES 2.0, A.9 Test cases for minimum temporal filter | n/a |
 | 68     | ISO 19143 Minimum XPath              | OGC FES 2.0, A.14 Test cases for XPath | n/a |
 
-*Note*: These requirements are only for fulfilling the INSPIRE Download Service parts B & C. For a complete INSPIRE compliant Download Service, the additional requirements for the part A still need to be covered either by [Atom/OpenSearch](http://inspire.ec.europa.eu/id/ats/download-wfs/master/atom-pre-defined) or
-the [predefined dataset WFS](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined) CC.
+*Note*: These requirements are only for fulfilling the INSPIRE Download Service parts B & C. For a complete INSPIRE compliant Download Service, the additional requirements for the part A still need to be covered either by [Atom/OpenSearch](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/atom-pre-defined) or
+the [predefined dataset WFS](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined) CC.
 
 ## Tests
 

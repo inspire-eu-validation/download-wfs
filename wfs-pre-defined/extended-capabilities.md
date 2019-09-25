@@ -16,7 +16,7 @@ XML Schema for the INSPIRE WFS ExtendedCapabilities.
 
 **Reference(s)**
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/README#ref_TG_DL), Requirement 60
+* [TG DL](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/README#ref_TG_DL), Requirement 60
 
 **Test type**: Automated
 
@@ -24,7 +24,7 @@ XML Schema for the INSPIRE WFS ExtendedCapabilities.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-wfs/master/wfs-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
