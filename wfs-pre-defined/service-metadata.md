@@ -24,6 +24,31 @@ Automated + Manual (if needed)
 
 **Notes**
 
+Table 19: Mapping INSPIRE Metadata elements to ISO 19142 WFS
+
+INSPIRE Metadata elements<br>[Mandatory (M) - Conditional (C)] |ISO 19142 elements of<br><WFS\_Capabilities>
+--------------------------------------------------- | -------------------------------------------------------------------------
+|Resource Title (M) |ows:ServiceIdentification/ows:Title |
+|Resource Abstract (M) |ows:ServiceIdentification/ows:Abstract |
+|Resource Type (M) |inspire\_common:ResourceType (ExtendedCapabilities) |
+|Resource Locator (C) |inspire\_common:ResourceLocator (ExtendedCapabilities) |
+|Coupled Resource (C) |wfs:MetadataURL (per feature type) |
+|Spatial Data Service Type (M) |inspire\_common:SpatialDataServiceType (ExtendedCapabilities) |
+|Keyword (M) |ows:Keywords/ows:Keyword; inspire\_common:Keyword |
+|Geographic Bounding Box (M) |ows:WGS84BoundingBox (Layer property) |
+|Temporal Reference (M) |inspire\_common:TemporalReference (ExtendedCapabilities) |
+|Spatial Resolution (C) |ows:ServiceIdentification/ows:Abstract |
+|<p>Conformity\* (M) </p><p>\*refers to conformity of to the Data Specificaitons </p>|inspire\_common:Conformity  (ExtendedCapabilities) |
+|Conditions for Access and Use (M) |ows:ServiceIdentification/ows:Fees |
+|Limitations on Public Access (M) |ows:ServiceIdentification/ows:AccessConstraints|
+|Responsible Organisation (M) |<p>ows:ServiceProvider/ows:ProviderName and: </p><p>ows:ServiceProvider/ows:ServiceContact/ows:Cont actInfo </p>|
+|Metadata Point of Contact (M) |inspire\_common:MetadataPointOfContact (ExtendedCapabilities) |
+|Metadata Date (M) |inspire\_common:MetadataDate (ExtendedCapabilities) |
+|Metadata Language (M) |inspire\_common:SupportedLanguages (ExtendedCapabilities) |
+|Unique Resource Identifier (M) |<p>inspire\_dls:SpatialDataSetIdentifier/inspire\_co mmon:Code </p><p>inspire\_dls:SpatialDataSetIdentifier/inspire\_co mmon:Namespace </p><p>(ExtendedCapabilities) </p>|
+
+
+
 
 ## Contextual XPath references
 
