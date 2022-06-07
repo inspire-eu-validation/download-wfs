@@ -38,14 +38,14 @@ INSPIRE Metadata elements<br>[Mandatory (M) - Conditional (C)] |ISO 19142 elemen
 |Geographic Bounding Box (M) |ows:WGS84BoundingBox (Layer property) |
 |Temporal Reference (M) |inspire\_common:TemporalReference (ExtendedCapabilities) |
 |Spatial Resolution (C) |ows:ServiceIdentification/ows:Abstract |
-|<p>Conformity\* (M) </p><p>\*refers to conformity of to the Data Specificaitons </p>|inspire\_common:Conformity  (ExtendedCapabilities) |
+|<p>Conformity\* (M) </p><p>\*refers to conformity of to the Data Specificaitons </p>|inspire\_common:Conformity (ExtendedCapabilities) |
 |Conditions for Access and Use (M) |ows:ServiceIdentification/ows:Fees |
 |Limitations on Public Access (M) |ows:ServiceIdentification/ows:AccessConstraints|
-|Responsible Organisation (M) |<p>ows:ServiceProvider/ows:ProviderName and: </p><p>ows:ServiceProvider/ows:ServiceContact/ows:Cont actInfo </p>|
+|Responsible Organisation (M) |<p>ows:ServiceProvider/ows:ProviderName and: </p><p>ows:ServiceProvider/ows:ServiceContact/ows:ContactInfo </p>|
 |Metadata Point of Contact (M) |inspire\_common:MetadataPointOfContact (ExtendedCapabilities) |
 |Metadata Date (M) |inspire\_common:MetadataDate (ExtendedCapabilities) |
 |Metadata Language (M) |inspire\_common:SupportedLanguages (ExtendedCapabilities) |
-|Unique Resource Identifier (M) |<p>inspire\_dls:SpatialDataSetIdentifier/inspire\_co mmon:Code </p><p>inspire\_dls:SpatialDataSetIdentifier/inspire\_co mmon:Namespace </p><p>(ExtendedCapabilities) </p>|
+|Unique Resource Identifier (M) |<p>inspire\_dls:SpatialDataSetIdentifier/inspire\_common:Code </p><p>inspire\_dls:SpatialDataSetIdentifier/inspire\_common:Namespace </p><p>(ExtendedCapabilities) </p>|
 
 
 
