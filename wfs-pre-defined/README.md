@@ -59,13 +59,13 @@ The Conformance Class "Pre-defined WFS: Implement Pre-Defined Dataset Download S
 
 | Identifier                                                        | Status   |
 | ----------------------------------------------------------------- | -------- |
-| [Extended capabilities](./extended-capabilities) | Ready for review |
-| [Predefined Stored Query](./predefined-stored-query) | Ready for review    |
-| [Service Metadata](./service-metadata)   | Ready for review    |
-| [Language affects capabilities](./language-affects-capabilities) | Ready for review |
-| [Provide Response Language](./provide-response-language)    | Ready for review    |
-| [Provide Supported Languages](./provide-supported-languages)   | Ready for review    |
-| [Provide Default Language](./provide-default-language) | Ready for review |
+| [Extended capabilities](./extended-capabilities.md)               | Ready for review |
+| [Predefined Stored Query](./predefined-stored-query.md)           | Ready for review    |
+| [Service Metadata](./service-metadata.md)                         | Ready for review    |
+| [Language affects capabilities](./language-affects-capabilities.md) | Ready for review |
+| [Provide Response Language](./provide-response-language.md)       | Ready for review    |
+| [Provide Supported Languages](./provide-supported-languages.md)   | Ready for review    |
+| [Provide Default Language](./provide-default-language.md)         | Ready for review |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
@@ -73,11 +73,11 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-fes | http://www.opengis.net/fes/2.0
-gmd | http://www.isotc211.org/2005/gmd
-gml | http://www.opengis.net/gml/3.2
+fes            | http://www.opengis.net/fes/2.0
+gmd            | http://www.isotc211.org/2005/gmd
+gml            | http://www.opengis.net/gml/3.2
 inspire\_common| http://inspire.ec.europa.eu/schemas/common/1.0
 inspire\_dls   | http://inspire.ec.europa.eu/schemas/inspire_dls/1.0
-ows | http://www.opengis.net/ows/1.1
-wfs | http://www.opengis.net/wfs/2.0
+ows            | http://www.opengis.net/ows/1.1
+wfs            | http://www.opengis.net/wfs/2.0
 xlink          | http://www.w3.org/1999/xlink
