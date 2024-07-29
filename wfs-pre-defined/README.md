@@ -1,4 +1,4 @@
-# Conformance class: Pre-defined WFS (DRAFT)
+# Conformance class: Pre-defined WFS
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE Download Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/download-wfs).
 
@@ -10,7 +10,7 @@ OGC web service (WFS 2.0.0)
 
 ### Direct dependencies
 
-A direct dependency is another conformance class whose requirements must be met by the view service, too.
+A direct dependency is another conformance class whose requirements must also be met by the view service.
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
