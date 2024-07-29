@@ -1,22 +1,20 @@
-# Service Metadata - Scenario 1
+# Service Metadata - Scenario 3
 
-**Purpose**:
-INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspire_common:MetadataURL](#inspireCommonMetadataUrl) in an [ExtendedCapabilities](#ExtendedCapabilities) section, OR the [ExtendedCapabilities](#ExtendedCapabilities) section must contain all the INSPIRE Metadata for the Download Service in accordance with Table 19 and the inspire_dls:ExtendedCapabilities schema.
-The [ExtendedCapabilities](#ExtendedCapabilities) section of the Download Service is in accordance with the schema at https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd and contains a link to the metadata record of the service in an INSPIRE Discovery catalogue in element [inspire_common:MetadataURL](#inspireCommonMetadataUrl)
+**Purpose**: The capabilities section of the Download Service contains the Download Service metadata elements in accordance with Table 19b.
 
 **Prerequisites**
 
-This test only applies to Scenario 1. Otherwise the test case is skipped.
+This test only applies to Scenario 3. Otherwise the test case is skipped.
 
 **Test method**
 
 * Perform a GetCapabilities request
-* Validate the Capabilities document to the XML schema at http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
-* If a [inspire_common:MetadataURL](#inspireCommonMetadataUrl) is provided, request the Metadata document with this URL. Check if the response is a valid Metadata document.
+* Validate the Capabilities document to the XML schema at ......
+* Check that all mandatory metadata elements are present in the Capabilities section in accordance to the mapping provided in Table 19b of the TG.
 
 **Reference(s)**:
 
-* [TG DL](./README.md#ref_TG_DL), Requirement 53 (1)
+* [TG DL](./README.md#ref_TG_DL), Requirement 53 (3)
 
 **Test type**:
 
@@ -24,7 +22,7 @@ Automated
 
 **Notes**
 
-Table 19: Mapping INSPIRE Metadata elements to ISO 19142 WFS
+Table 19b: Mapping INSPIRE Metadata elements to ISO 19142 WFS without extended capabilities
 
 INSPIRE Metadata elements<br>[Mandatory (M) - Conditional (C)] |ISO 19142 elements of<br><WFS\_Capabilities>
 --------------------------------------------------- | -------------------------------------------------------------------------
