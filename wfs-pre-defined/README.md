@@ -37,16 +37,16 @@ none
 Based on requirement numbering in [TG VS](#ref_TG_VS).
 
 | Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
-| ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
+| ------- | ------------------------------------ | ---------------------------------- | -------------------------------- |
 | 46     | ISO 19142 Simple WFS compliance      | OGC WFS 2.0.0, A.1.1 Simple WFS    | n/a |
 | 47     | ISO 19143 Query compliance           | OGC FES 2.0, A.1 Test cases for query | n/a |
 | 48     | ISO 19142 HTTP GET compliance        | OGC WFS 2.0.0, A.1.5 HTTP GET      | n/a |
 | 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [Predefined Stored Query](./predefined-stored-query.md) | |
 | 51     | Fixed stored query parameter names   | [Predefined Stored Query](./predefined-stored-query.md) | |
 | 52     | Separate service for each dataset    | | |
-| 53 (1) | Scenario 1 - MetadataURL references INSPIRE service metadata | [Service Metadata - Scenario 1](./service-metadata-1.md) | |
-| 53 (2) | Scenario 2 - Mapping of service metadata elements | [Service Metadata - Scenario 2](./service-metadata-2.md) | |
-| 53 (3) | Scenario 3 - Mapping of service metadata elements to the capabilities section | [Service Metadata - Scenario 3](./service-metadata-3.md) | |
+| 53(1) | Scenario 1 - MetadataURL references INSPIRE service metadata | [Service Metadata - Scenario 1](./service-metadata-1.md) | |
+| 53(2) | Scenario 2 - Mapping of service metadata elements | [Service Metadata - Scenario 2](./service-metadata-2.md) | |
+| 53(3) | Scenario 3 - Mapping of service metadata elements to the capabilities section | [Service Metadata - Scenario 3](./service-metadata-3.md) | |
 | 54     | List of supported languages          | [Provide Supported Languages](./provide-supported-languages.md) | |
 | 55     | User may select the language         | [Language affects capabilities](./language-affects-capabilities.md) | |
 | 56     | GetCapabilities LANGUAGE parameter   | [Language affects capabilities](./language-affects-capabilities.md) | |
