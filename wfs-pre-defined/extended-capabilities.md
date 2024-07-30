@@ -14,7 +14,6 @@ This test only applies to [Scenario 1](./README.md#scenarios) and [Scenario 2](.
 * Check that the [ExtendedCapabilities](#ExtendedCapabilities) exists. If it does
   * Validate the [ExtendedCapabilities](#ExtendedCapabilities) element and its children according to the XML Schema definition for the WFS INSPIRE ExtendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
   * If the validation passes, pass the test.
-* If no ExtendedCapabilities were found or validation fails, fail the test.
 
 **Reference(s)**
 
