@@ -63,11 +63,29 @@ The Conformance Class "Pre-defined WFS: Implement Pre-Defined Dataset Download S
 | ----------------------------------------------------------------- | -------- |
 | [Extended capabilities](./extended-capabilities.md)               | Ready for review |
 | [Predefined Stored Query](./predefined-stored-query.md)           | Ready for review    |
-| [Service Metadata](./service-metadata.md)                         | Ready for review    |
+| [Service Metadata - Scenario 1](./service-metadata-1.md)                         | Ready for review    |
+| [Service Metadata - Scenario 2](./service-metadata-2.md)                         | Ready for review    |
+| [Service Metadata - Scenario 3](./service-metadata-3.md)                         | Ready for review    |
 | [Language affects capabilities](./language-affects-capabilities.md) | Ready for review |
 | [Provide Response Language](./provide-response-language.md)       | Ready for review    |
 | [Provide Supported Languages](./provide-supported-languages.md)   | Ready for review    |
 | [Provide Default Language](./provide-default-language.md)         | Ready for review |
+
+## <a name="scenarios"></a> Three scenarios for providing the service metadata
+
+The [TG DL](#ref_TG_DL) gives three options (scenarios) for providing the service metadata in the Capabilities document of the WFS services:
+
+* Scenario 1: Use of the _ows:ExtendedCapabilities_ to publish a link to a Download Service metadata record. (e.g. in a discovery service). This should be done using a _<inspire_common:MetadataURL>_ in the extended capabilities section.
+
+* Scenario 2: Publish all the metadata elements directly in the WFS capabilities and _ows:ExtendedCapabilities_ using the mapping in Table 19a.
+
+* Scenario 3: Publish all the metadata elements directly in the WFS capabilities __without__ _ows:ExtendedCapabilities_ using the mapping in Table 19b.
+
+Since there is no dedicated method in [TG DL](#ref_TG_DL) for the data provider to indicate which scenario has been chosen, the validator software must use the following logic to decide the appropriate set of tests to apply:
+
+- If the _<inspire_common:MetadataURL>_ element is present as the first element in the ExtendedCapabilities section, we assume it to be in Scenario 1.
+- If the _<inspire_common:ResourceLocator>_ element is present as the first element in the ExtendedCapabilities section, we assume it to be in Scenario 2.
+- If the ExtendedCapabilities section is not present, we assume it to be in Scenario 3.
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
