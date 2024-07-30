@@ -1,8 +1,6 @@
 # Service Metadata - Scenario 2
 
-**Purpose**: The [ExtendedCapabilities](#ExtendedCapabilities) section of the Download Service is in accordance with the schema at https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd and contains a link to the metadata record of the service in an INSPIRE Discovery catalogue in element [inspire_common:MetadataURL](#inspireCommonMetadataUrl)
-Test that the capabilities section and the ExtendedCapabilities](#ExtendedCapabilities) section of the Download Service contain the Download Service metadata elements in accordance with Table 19a, in accordance with the schema at at https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd.
-
+**Purpose**: Test that the capabilities section and the [ExtendedCapabilities](#ExtendedCapabilities) section of the Download Service contain the Download Service metadata elements according to Table 19a and the schema at https://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd.
 
 **Prerequisites**
 
@@ -12,11 +10,11 @@ This test only applies to [Scenario 2](./README.md#scenarios). Otherwise, the te
 
 * Perform a GetCapabilities request
 * Validate the Capabilities document to the XML schema at http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
-* Check that all mandatory metadata elements are present in the ExtendedCapabilities section in accordance to the mapping provided in Table 19a of the TG.
+* Check that all mandatory metadata elements are present in the ExtendedCapabilities section according to the mapping provided in Table 19a of the TG.
 
 **Reference(s)**:
 
-* [TG DL](./README.md#ref_TG_DL), Requirement 53 (1)
+* [TG DL](./README.md#ref_TG_DL), Requirement 53 (2)
 
 **Test type**:
 
@@ -45,7 +43,7 @@ INSPIRE Metadata elements<br>[Mandatory (M) - Conditional (C)] |ISO 19142 elemen
 |Metadata Point of Contact (M)                      |inspire\_common:MetadataPointOfContact (ExtendedCapabilities) |
 |Metadata Date (M)                                  |inspire\_common:MetadataDate (ExtendedCapabilities) |
 |Metadata Language (M)                              |inspire\_common:SupportedLanguages (ExtendedCapabilities) |
-|Unique Resource Identifier (M)                     |<p>inspire\_dls:SpatialDataSetIdentifier/inspire\_common:Code </p><p>inspire\_dls:SpatialDataSetIdentifier/inspire\_common:Namespace </p><p>(ExtendedCapabilities) </p>|
+|Unique Resource Identifier (M)                     |<p>inspire\_dls:SpatialDataSetIdentifier/inspire\_common:Code </p><p>[Optional] inspire\_dls:SpatialDataSetIdentifier/inspire\_common:Namespace </p><p>(ExtendedCapabilities) </p>|
 
 
 
