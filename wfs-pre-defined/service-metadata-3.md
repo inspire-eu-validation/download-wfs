@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-This test only applies to Scenario 3. Otherwise the test case is skipped.
+This test only applies to [Scenario 3](./README.md#scenarios). Otherwise, the test case is skipped.
 
 **Test method**
 
