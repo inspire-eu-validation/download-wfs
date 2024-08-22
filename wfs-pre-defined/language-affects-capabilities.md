@@ -23,7 +23,7 @@ This language selection must be reflected in the provided capabilities document.
 
 **Reference(s)**
 
-* [TG DL] (./README.md#ref_TG_DL), Requirements 55, 56
+* [TG DL](./README.md#ref_TG_DL), Requirements 55, 56
 
 **Test type**: Automated
 
