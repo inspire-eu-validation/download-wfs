@@ -9,7 +9,6 @@ This test only applies to [Scenario 3](./README.md#scenarios). Otherwise, the te
 **Test method**
 
 * Perform a GetCapabilities request
-* [Validate the Capabilities document against the XML schemas declared in the capabilities document itself.] TO BE VERIFIED IF APPLICABLE
 * Check that all mandatory metadata elements are present in the Capabilities section according to the mapping provided in Table 19b of the TG.
 
 **Reference(s)**:
