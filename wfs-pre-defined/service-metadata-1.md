@@ -10,18 +10,20 @@ This test only applies to [Scenario 1](./README.md#scenarios). Otherwise, the te
 **Test method**
 
 * Perform a GetCapabilities request
-* Validate the Capabilities document to the XML schema at http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
 * If a [inspire_common:MetadataURL](#inspireCommonMetadataUrl) is provided, request the Metadata document with this URL. Check if the response is a valid Metadata document.
 
 **Reference(s)**:
 
-* [TG DL](./README.md#ref_TG_DL), Requirement 53 (1)
+* [TG DL](./README.md#ref_TG_DL), Requirement 53 (1) - Requirement 60
 
 **Test type**:
 
 Automated
 
 **Notes**
+
+Validation against the INSPIRE XML schema (http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd) is perfomed in the "Initialization and basic checks" test module.
+
 
 
 ## Contextual XPath references

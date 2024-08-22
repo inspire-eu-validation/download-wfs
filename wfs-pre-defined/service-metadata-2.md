@@ -9,18 +9,19 @@ This test only applies to [Scenario 2](./README.md#scenarios). Otherwise, the te
 **Test method**
 
 * Perform a GetCapabilities request
-* Validate the Capabilities document to the XML schema at http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
 * Check that all mandatory metadata elements are present in the ExtendedCapabilities section according to the mapping provided in Table 19a of the TG.
 
 **Reference(s)**:
 
-* [TG DL](./README.md#ref_TG_DL), Requirement 53 (2)
+* [TG DL](./README.md#ref_TG_DL), Requirement 53 (2) - Requirement 60
 
 **Test type**:
 
 Automated
 
 **Notes**
+
+Validation against the INSPIRE XML schema (http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd) is perfomed in the "Initialization and basic checks" test module.
 
 Table 19a: Mapping INSPIRE Metadata elements to ISO 19142 WFS with extended capabilities
 
