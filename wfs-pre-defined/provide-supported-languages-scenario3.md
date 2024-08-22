@@ -1,6 +1,6 @@
 # Provide Supported Languages - Scenario 3
 
-**Purpose**: If the service supports several languages and if there is no Extended Capabilities, the xml:lang attribute shall be used to define the languages used.
+**Purpose**: If the service supports several languages and there is no Extended Capabilities, the xml:lang attribute shall be used to define the languages used.
 
 **Prerequisites**
 
@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Check manually that the if the service supports several languages and if there is no Extended Capabilities, the _xml:lang_ attribute shall be used to define the languages used.
+* Check manually that if the service supports several languages and there is no Extended Capabilities, the _xml:lang_ attribute is used to define the languages used.
 
 **Reference(s)**:
 
