@@ -53,7 +53,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 57     | Title & abstract fallback language   | [Provide Default Language](./provide-default-language.md) | |
 | 58     | ResponseLanguage element             | [Provide Response Language](./provide-response-language.md) | |
 | 59     | SupportedLanguages element           | [Provide Supported Languages](./provide-supported-languages.md), [Provide default language](./provide-default-language.md) | |
-| 60     | Extended capabilities schema         | [Extended capabilities](./extended-capabilities.md) | |
+| 60     | Extended capabilities schema         | [Service Metadata - Scenario 1](./service-metadata-1.md) <br> [Service Metadata - Scenario 2](./service-metadata-2.md)  | |
 
 ## Tests
 
@@ -61,11 +61,10 @@ The Conformance Class "Pre-defined WFS: Implement Pre-Defined Dataset Download S
 
 | Identifier                                                        | Status   |
 | ----------------------------------------------------------------- | -------- |
-| [Extended capabilities](./extended-capabilities.md)               | Ready for review |
 | [Predefined Stored Query](./predefined-stored-query.md)           | Ready for review    |
-| [Service Metadata - Scenario 1](./service-metadata-1.md)                         | Ready for review    |
-| [Service Metadata - Scenario 2](./service-metadata-2.md)                         | Ready for review    |
-| [Service Metadata - Scenario 3](./service-metadata-3.md)                         | Ready for review    |
+| [Service Metadata - Scenario 1](./service-metadata-1.md)          | Ready for review    |
+| [Service Metadata - Scenario 2](./service-metadata-2.md)          | Ready for review    |
+| [Service Metadata - Scenario 3](./service-metadata-3.md)          | Ready for review    |
 | [Language affects capabilities](./language-affects-capabilities.md) | Ready for review |
 | [Provide Response Language](./provide-response-language.md)       | Ready for review    |
 | [Provide Supported Languages](./provide-supported-languages.md)   | Ready for review    |
