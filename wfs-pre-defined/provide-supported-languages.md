@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Extended capabilities](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/extended-capabilities)
+* This test only applies to [Scenario 1](./README.md#scenarios) and [Scenario 2](./README.md#scenarios). Otherwise, the test case is skipped.
 
 **Test method**
 
@@ -12,7 +12,7 @@
 
 **Reference(s)**:
 
-* [TG DL](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/README#ref_TG_DL), Requirement 59
+* [TG DL](./README.md#ref_TG_DL), Requirement 59
 
 **Test type**: Automated
 
@@ -20,7 +20,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

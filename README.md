@@ -4,9 +4,9 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [Pre-defined WFS](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-pre-defined) | OGC Web Service (WFS 2.0.0) |
-| [Direct WFS](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-direct) | OGC Web Service (WFS 2.0.0) |
-| [INSPIRE Quality of Service](http://inspire.ec.europa.eu/id/ats/download-wfs/3.1/wfs-qos) | OGC Web Service (WFS 2.0.0) |
+| [Pre-defined WFS](./wfs-pre-defined) | OGC Web Service (WFS 2.0.0) |
+| [Direct WFS](./wfs-direct) | OGC Web Service (WFS 2.0.0) |
+| [INSPIRE Quality of Service](./wfs-qos) | OGC Web Service (WFS 2.0.0) |
 
 ## Rules for HTTP requests
 
